@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0
+}
+li{
+	list-style: none;
+}
+img{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: url("../images/body_bj.jpg");
+	min-width: 775px;
+}
+.c_top{
+	line-height: 40px;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+.c_top img{
+	margin: 8px 0 0 16px;
+}
+.c_top h3{
+	color: #333;
+	font-size: 18px;
+	font-weight: normal;
+}
+.c_top h3 a{
+	color: #333;
+}
+.c_top h3 a:hover{
+	color: #eb8a3d;
+	text-decoration: underline;
+}
+.c_top h3,.c_top img{
+	float: left;
+}
+.c_top p{
+	float: right;
+	width: 98px;
+	height: 26px;
+	background: #c43926;
+	border-radius: 4px;
+	color: #fff;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	margin: 8px 10px 0 0;
+	cursor: pointer;
+}
+.main{
+	width: 100%;
+	border: 1px solid #d7d7d7;
+	background: #f3f3f3;
+	min-width: 775px;
+	margin-bottom: 10px;
+}
+.main .class_tit{
+	height: 42px;
+	padding-left: 10px;
+	background: #efefef;
+}
+.main .class_tit li{
+	margin-top: 3px;
+	padding-right: 2px;
+	text-align: center;
+	width: 88px;
+	line-height: 39px;
+	float: left;
+	color: #787878;
+	cursor: pointer;
+}
+.main .class_tit li.first{
+	color: #192e32;
+	background: #fff;
+}
+.edit{
+	background: #fff;
+	padding: 20px 0 10px 0;
+	overflow: hidden;
+	font: 12px Microsoft Yahei, "sans-serif", "Arial", "Verdana";
+}
+.edit ul{
+	display: none;
+	padding-left: 30px;
+}
+.edit ul.common{
+	display: block;
+}
+.edit ul li{
+	overflow: hidden;
+}
+.edit ul li .left{
+	width: 330px;
+	float: left;
+	margin-top: 8px;
+}
+.edit ul li .right{
+	float: left;
+	width: 600px;
+}
+.edit ul li .left label{
+	float: right;
+	font-weight: bold;
+	margin-right: 16px;
+	color: #192E32
+}
+.edit ul li .left img{
+	float: right;
+	margin-right: 4px;
+}
+.edit ul li input,.edit select,.edit button{
+	margin: 8px 0;
+}
+.edit ul li .right p{
+	color: #666;
+}
+.btns{
+	width: 150px;
+	margin: 0 auto;
+}
+.btns button{
+	color: #fff;
+	text-align: center;
+	width: 60px;
+	line-height: 26px;
+	background: #ff3f3f;
+	border: none;
+	border-radius: 4px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.fotter{
+	height: 46px;
+	background: #f3f3f3;
+	border: 1px solid #ddd;
+	padding-top: 16px;
+}
+.fotter p{
+	text-align: center;
+	color: #9faeb1;
+}

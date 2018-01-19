@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0
+}
+img{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+html,body{
+	height: 100%;
+}
+body{
+	background: url(../images/ecshop-bg.png) no-repeat center center;
+	background-size: cover; 
+	font-size: 12px;
+}
+.top{
+	overflow: hidden;
+}
+.top img{
+	float: left;
+}
+.top .tit{
+	margin: 40px 0 0 50px;
+}
+.top .logo{
+	width: 248px;
+	margin: 77px 0 0 354px;
+}
+.login{
+	width: 302px;
+	height: 302px;
+	background: rgba(255,255,255,.85);
+	margin: 0 auto;
+	margin-top: 50px;
+	position: relative;
+	padding: 50px 70px 0;
+}
+.login .bottom{
+	position: absolute;
+	top: 344px;
+	left: -16px;
+}
+.login .user,.psw,.code{
+	width: 300px;
+	height: 48px;
+	background: #fff;
+	border: 1px solid #e6e6e6;
+}
+.login i{
+	display: block;
+	width: 50px;
+	line-height: 48px;
+	font-size: 22px;
+	text-align: center;
+	color: #666;
+	float: left;
+}
+.login .user_inp,.psw_inp,.code_inp{
+	float: left;
+	width: 250px;
+	height: 48px;
+	border: none;
+	outline: none;
+}
+.login .user{
+	border-radius: 2px 2px 0 0;
+}
+.login .code{
+	border-radius: 0 0 2px 2px;
+	position: relative;
+}
+.login .code .code_img{
+	position: absolute;
+}
+.login .btn{
+	width: 302px
+	height: 54px;
+	background: #fc7878;
+	text-align: center;
+	line-height: 54px;
+	border-radius: 2px;
+	margin: 20px 0 12px;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+}
+.login .save,.forget_psw,.go_index{
+	float: left;
+}
+.login .save{
+	color: #666;
+	margin-right: 24px;
+}
+.login .save input{
+	float: left;
+	margin: 2px 4px 0 0;
+}
+.login .forget_psw,.go_index{
+	color: #41a5e1;
+}
+.login .forget_psw{
+	margin-right: 50px;
+}

@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0
+}
+li{
+	list-style: none;
+}
+img{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: url("../images/body_bj.jpg");
+}
+.c_top{
+	line-height: 40px;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+.c_top img{
+	margin: 8px 0 0 16px;
+}
+.c_top h3{
+	color: #333;
+	font-size: 18px;
+	font-weight: normal;
+}
+.c_top h3 a{
+	color: #333;
+}
+.c_top h3 a:hover{
+	color: #eb8a3d;
+	text-decoration: underline;
+}
+.c_top h3,.c_top img{
+	float: left;
+}
+.c_top p{
+	float: right;
+	width: 98px;
+	height: 26px;
+	background: #c43926;
+	border-radius: 4px;
+	color: #fff;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	margin: 8px 10px 0 0;
+	cursor: pointer;
+}
+.search{
+	height: 40px;
+	background: #f3f3f3;
+	border: 1px solid #ddd;
+	margin: 10px 0;
+}
+.search img{
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 10px;
+}
+.search span.null{
+	display: inline-block;
+	vertical-align: middle;
+	width:0;
+	height:100%;
+}
+.search select,input,button{
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 12px;
+}
+.search select{
+	height: 20px;
+}
+.search .sel1{
+	width: 155px;
+}
+.search .sel2{
+	width: 103px;
+}
+.search .sel3{
+	width: 70px;
+}
+.search .sel4{
+	width: 50px;
+}
+.search input{
+	height: 20px;
+	width: 104px;
+	border: 1px solid #a9a9a9;
+}
+.search span{
+	color: #808080;
+}
+.search button{
+	border: none;
+	line-height: 26px;
+	width: 62px;
+	border-radius: 4px;
+	background: #ff3f3f;
+	color: #fff;
+	text-align: center;
+	outline: none;
+	cursor: pointer;
+}
+table{
+	border-spacing: 0;
+	border-collapse: collapse;
+	width: 100%;
+	min-width: 775px;
+}
+table td,table th{
+	border: 1px solid #ddd;
+	text-align: center;
+	height: 60px;
+	background: #fff;
+}
+table th{
+	height: 45px;
+	background: #f3f3f3;
+	color: #3e3e3e;
+}
+thead{
+	border-bottom: 2px solid #ddd;
+}
+th img{
+	display: inline-block;
+}
+th:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+td img{
+	display: inline-block;
+	cursor: pointer;
+}
+.page_div{
+	height: 42px;
+	background: #fff;
+}
+.page{
+	float: right;
+	margin: 14px 10px 0 0;
+	color: #192e32;
+}
+.page input{
+	width: 30px;
+	height: 20px;
+	border: 1px solid #a9a9a9;
+}
+.fil select{
+	height: 20px;
+	font-size: 12px;
+}
+.fil button{
+	width: 60px;
+	line-height: 26px;
+	border-radius: 4px;
+	text-align: center;
+	color: #fff;
+	background: #ff3f3f;
+	border: none;
+	margin: 2px 0 12px 6px;
+	cursor: pointer;
+}
+.fotter{
+	height: 46px;
+	background: #f3f3f3;
+	border: 1px solid #ddd;
+	padding-top: 16px;
+}
+.fotter p{
+	text-align: center;
+	color: #9faeb1;
+}

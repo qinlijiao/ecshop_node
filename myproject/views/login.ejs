@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/login.css">
+	<link rel="stylesheet" type="text/css" href="../iconfont/iconfont.css">
+</head>
+<body>
+	<div class="top">
+		<img class="tit" src="../images/shopex.png">
+		<img class="logo" src="../images/ecshop-logo.png">
+	</div>
+	<div class="login">
+		<div class="user">
+			<i class="iconfont icon-wo"></i>
+			<input class="user_inp" type="text" name="username" placeholder="用户名">
+		</div>
+		<div class="psw">
+			<i class="iconfont icon-suo"></i>
+			<input class="psw_inp" type="password" name="psw" placeholder="密码">
+		</div>
+		<div class="code">
+			<i class="iconfont icon-dunpaisuo"></i>
+			<input class="code_inp" type="text" name="code" placeholder="验证码">
+			<img class="code_img" src="">
+		</div>
+		<div class="btn" onclick="login()">登 录</div>
+		<div>
+			<div class="save"><input type="checkbox" name=""> 保存登录信息</div>
+			<a href="#" class="forget_psw">忘记密码？</a>
+			<a href="#" class="go_index">去店铺首页>></a>
+		</div>
+		<img class="bottom" src="../images/icloud-bar.png">
+	</div>
+</body>
+<script type="text/javascript" src="../javascripts/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../javascripts/login.js"></script>
+</html>
