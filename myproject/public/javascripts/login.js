@@ -1,6 +1,6 @@
 function login(){
 	$.ajax({
-		url: "/loginajax",
+		url: "/api/loginajax",
 		type: "post",
 		data: {
 			name: $(".user_inp").val(),

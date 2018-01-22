@@ -137,6 +137,13 @@ td img{
 	display: inline-block;
 	cursor: pointer;
 }
+.shangjia,.jingpin,.xinpin,.rexiao{
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.goods_name{
+	font-weight: bold;
+}
 .page_div{
 	height: 42px;
 	background: #fff;
@@ -150,6 +157,9 @@ td img{
 	width: 30px;
 	height: 20px;
 	border: 1px solid #a9a9a9;
+}
+.page span{
+	cursor: pointer;
 }
 .fil select{
 	height: 20px;

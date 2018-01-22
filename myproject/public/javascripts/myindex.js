@@ -7,7 +7,7 @@ var contents_w = ww - $(".list").width() - $(".left_btn").width();
 $(".list").css("height",list_h);
 $(".left_btn").css("height",list_h);
 $(".contents").css("height",list_h);
-$(".contents").css("height",contents_w);
+//$(".contents").css("width",contents_w);
 
 //选项卡
 var bg_bef = ["../images/menu_1.png","../images/menu_2.png","../images/menu_3.png","../images/menu_4.png","../images/menu_5.png","../images/menu_6.png","../images/menu_7.png","../images/menu_8.png","../images/menu_9.png","../images/menu_10.png","../images/menu_11.png","../images/menu_12.png","../images/menu_13.png","../images/menu_14.png","../images/menu_15.png","../images/menu_1.png"];     //展开前背景图片
